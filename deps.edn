@@ -1,5 +1,7 @@
 {:paths ["src" "resources"]
- :deps {org.clojure/clojure {:mvn/version "1.10.3"}}
+ :deps {org.clojure/clojure {:mvn/version "1.10.3"}
+        potemkin/potemkin {:mvn/version "0.4.5"}
+        metosin/ring-http-response {:mvn/version "0.9.3"}}
  :aliases
  {:run-m {:main-opts ["-m" "msolli.kondo-potemkin"]}
   :run-x {:ns-default msolli.kondo-potemkin
